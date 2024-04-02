@@ -25,7 +25,10 @@ SECRET_KEY = '/.env/'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = [
+    '.vercel.app',
+    '.now.sh',
+]
 
 
 # Application definition
