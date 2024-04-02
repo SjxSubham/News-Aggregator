@@ -15,3 +15,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mynews.settings')
 
 application = get_wsgi_application()
 
+app = application
