@@ -25,7 +25,7 @@ SECRET_KEY = '/.env/'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'https://news-aggregator-two-kappa.vercel.app', 'https://news-aggregator-qu56vxxpf-sjxsubhams-projects.vercel.app']
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 
 # Application definition
